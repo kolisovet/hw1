@@ -2,6 +2,8 @@
 }
 
 .input {
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
 }
 
 .inputWrapper {
@@ -11,10 +13,22 @@
 }
 
 .errorInput {
+    border: 1px solid #CC1439;
+    border-radius: 5px;
 }
 
 .errorInput:focus {
 }
 
 .error {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #CC1439;
+    position: relative;
+    bottom: 15px;
+    right: 140px;
 }
